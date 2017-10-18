@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 27, 2016, 9:11:16 PM
+    Author     : nelson
+*/
+
+.root {-fx-background-image: url("Battleship_Image.png");
+       -fx-background-repeat: stretch;   
+    -fx-background-size: 1280 720;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+
+
+
+}
+
+
+
+.button{
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1,#2A5058);
+    -fx-font-size: 20px;
+}
